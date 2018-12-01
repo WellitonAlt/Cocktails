@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cocktail</string>
+    <string name="imagem_cocktail">Imagem Cocktail</string>
+    <string name="nome_coquetel">Nome Coquetel</string>
+</resources>
