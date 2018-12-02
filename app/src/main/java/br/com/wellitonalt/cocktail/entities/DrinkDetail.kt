@@ -2,8 +2,7 @@ package br.com.wellitonalt.cocktail.entities
 
 import com.google.gson.annotations.SerializedName
 
-
-data class Drink(val idDrink: String,
+data class DrinkDetail(val idDrink: String,
                        val strDrink: String,
                        val strDrinkES: String,
                        val strDrinkDE: String,
@@ -57,3 +56,5 @@ data class Drink(val idDrink: String,
                        val strMeasure14: String,
                        val strMeasure15: String,
                        val dateModified: String)
+
+

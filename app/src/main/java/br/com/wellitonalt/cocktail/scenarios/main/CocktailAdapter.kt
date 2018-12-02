@@ -1,6 +1,7 @@
 package br.com.wellitonalt.cocktail.scenarios.main
 
 import android.content.Context
+import android.support.v4.widget.CircularProgressDrawable
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -37,9 +38,14 @@ class CocktailAdapter(val context: Context, val drinks: List<Drink>)
         fun bindView(context: Context, cocktail: Drink, itemClickListener: ((index: Int) -> Unit)?) {
             itemView.tvNome.text = cocktail.strDrink
 
+            val circularProgressDrawable = CircularProgressDrawable(itemView.context)
+            circularProgressDrawable.strokeWidth = 5f
+            circularProgressDrawable.centerRadius = 30f
+            circularProgressDrawable.start()
+
             GlideApp.with(context)
                 .load(cocktail.strDrinkThumb)
-                //.placeholder(R.drawable.no_image)
+                .placeholder(circularProgressDrawable)
                 .centerCrop()
                 .into(itemView.imgCocktail)
 

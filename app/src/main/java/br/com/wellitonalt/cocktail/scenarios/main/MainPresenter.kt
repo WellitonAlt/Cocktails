@@ -1,6 +1,5 @@
 package br.com.wellitonalt.cocktail.scenarios.main
 
-import br.com.wellitonalt.cocktail.scenarios.main.MainContract
 import br.com.wellitonalt.cocktail.entities.DrinkList
 import br.com.wellitonalt.cocktail.network.RetrofitInicializer
 import retrofit2.Call

@@ -2,4 +2,9 @@
     <string name="app_name">Cocktail</string>
     <string name="imagem_cocktail">Imagem Cocktail</string>
     <string name="nome_coquetel">Nome Coquetel</string>
+    <string name="categoria">Categoria</string>
+    <string name="iba">IBA</string>
+    <string name="copo">Copo</string>
+    <string name="instru_es">Instruções</string>
+    <string name="ingredientes">Ingredientes</string>
 </resources>
