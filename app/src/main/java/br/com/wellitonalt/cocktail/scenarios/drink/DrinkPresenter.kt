@@ -1,7 +1,6 @@
 package br.com.wellitonalt.cocktail.scenarios.drink
 
 import android.util.Log
-import br.com.wellitonalt.cocktail.entities.DrinkDetail
 import br.com.wellitonalt.cocktail.entities.DrinkList
 import br.com.wellitonalt.cocktail.network.RetrofitInicializer
 import retrofit2.Call

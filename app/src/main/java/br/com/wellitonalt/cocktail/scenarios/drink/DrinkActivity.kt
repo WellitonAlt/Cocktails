@@ -5,14 +5,10 @@ import android.app.ProgressDialog
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.widget.CircularProgressDrawable
-import android.util.Log
-import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import br.com.wellitonalt.cocktail.R
 import br.com.wellitonalt.cocktail.entities.Drink
-import br.com.wellitonalt.cocktail.entities.DrinkDetail
-import br.com.wellitonalt.cocktail.entities.DrinkList
 import br.com.wellitonalt.cocktail.scenarios.main.MainActivity.AppConstants.DRINK_ID
 import br.com.wellitonalt.cocktail.utils.GlideApp
 import kotlinx.android.synthetic.main.activity_drink.*
